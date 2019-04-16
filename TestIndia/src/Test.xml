@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Regresion">
+        <groups>
+            <run>
+                <include name="p1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Test.TestNG"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
